@@ -1,0 +1,2 @@
+activate pytorch
+yolo detect train data=G:\yolov8\ultralytics-main\datesets\voc2\mydata.yaml model=yolov8s.yaml pretrained=yolov8s.pt epochs=150 batch=8 lr0=0.01
